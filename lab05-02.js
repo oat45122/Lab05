@@ -8,8 +8,8 @@ function add(){
     
     p = document.createElement("p");
     span.appendChild(text);
-    p.appendChild(span);
     p.appendChild(img);
+    p.appendChild(span);
     document.body.appendChild(p);
 
     p.addEventListener('click',check);
